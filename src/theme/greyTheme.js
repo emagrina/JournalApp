@@ -4,13 +4,17 @@ import red from '@mui/material/colors/red';
 export const greyTheme = createTheme({
     palette: {
         primary: {
-            main: '#f8f9fa',
+            main: 'rgba(165,168,179,0.36)',
         },
         secondary: {
-            main: '#d1d3d4',
+            main: '#a5a8b3',
         },
         text: {
-            main: '#000000',
+            fixedDark: '#000000',
+            fixedLight: '#ffffff',
+
+            changingPrimary: '#000000',
+            changingSecondary: '#ffffff',
         },
         error: {
             main: red.A400,

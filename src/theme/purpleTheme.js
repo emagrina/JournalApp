@@ -10,7 +10,11 @@ export const purpleTheme = createTheme({
             main: '#543884',
         },
         text: {
-            main: '#ffffff',
+            fixedDark: '#000000',
+            fixedLight: '#ffffff',
+
+            changingPrimary: '#ffffff',
+            changingSecondary: '#000000',
         },
         error: {
             main: red.A400,

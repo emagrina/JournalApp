@@ -17,13 +17,13 @@ export const NothingSelectedView = () => {
                   className="box-shadow"
                   xs={ 12 }
             >
-                <StarOutline sx={ { fontSize: 100, color: 'text.main' } }/>
+                <StarOutline sx={ { fontSize: 100, color: 'text.changingPrimary' } }/>
             </Grid>
             <Grid item
                   className="box-shadow"
                   xs={ 12 }
             >
-                <Typography color="text.main" variant="h5">Select or create an entry</Typography>
+                <Typography color="text.changingPrimary" variant="h5">Select or create an entry</Typography>
             </Grid>
         </Grid>
     );

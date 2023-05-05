@@ -1,2 +1,2 @@
 export * from './NothingSelectedView';
-export * from './NotesView';
+export * from './NoteView.jsx';

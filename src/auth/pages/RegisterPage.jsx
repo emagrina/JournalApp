@@ -13,9 +13,9 @@ import { startCreatingUserWithEmailPassword } from '../../store/auth';
 import { Alert } from '@mui/material';
 
 const formData = {
-    email: 'test@emagrina.com',
-    password: '12345678',
-    displayName: 'Ernest Magriñá',
+    email: '',
+    password: '',
+    displayName: '',
 };
 
 const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;

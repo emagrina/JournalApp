@@ -11,16 +11,17 @@ import Google from '@mui/icons-material/Google';
 import { Alert, Typography } from '@mui/material';
 import { startGoogleSignIn, startLoginWithEmailPassword } from '../../store/auth/thunks';
 
+const formData = {
+    email: '',
+    password: '',
+}
 
 export const LoginPage = () => {
 
     const { status, errorMessage } = useSelector(state => state.auth);
     const dispatch = useDispatch();
 
-    const { email, password, onInputChange } = useForm({
-        email: 'test@emagrina.com',
-        password: '12345678',
-    });
+    const { email, password, onInputChange } = useForm(formData);
 
     const isAuthenticated = useMemo(() => status === 'checking', [ status ]);
 

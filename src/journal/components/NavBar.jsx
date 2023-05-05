@@ -38,11 +38,11 @@ export const NavBar = ({ drawerWidth = 240 }) => {
                     <MenuIcon/>
                 </IconButton>
                 <Grid container direction="row" justifyContent="space-between" alignItems="center">
-                    <Typography variant="h6" noWrap component="div" sx={ { flexGrow: 1 } }>
+                    <Typography variant="h6" noWrap component="div" sx={ { flexGrow: 1, color: 'text.changingPrimary' } }>
                         JournalApp
                     </Typography>
                     <Button
-                        color="inherit"
+                        sx={{ color: 'text.changingPrimary'}}
                         onClick={ onLogout }
                     >
                         <LogoutIcon/>
